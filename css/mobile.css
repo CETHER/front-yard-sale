@@ -75,3 +75,16 @@
   font-weight: bold;
   color: var(--hospital-green);
 }
+
+.menu {
+  display: block;
+  width: 30px;
+}
+
+.navbar-left {
+  display: none;
+}
+
+.navbar-email {
+  display: none;
+}
