@@ -1,0 +1,17 @@
+.logo {
+  display: block;
+  margin-top: 80px;
+}
+
+.form-container .account-title {
+  margin-top: 80px;
+}
+
+.form-container {
+  height: 100%;
+}
+
+.form { 
+  height: 100%;
+  justify-content: space-between;
+}
