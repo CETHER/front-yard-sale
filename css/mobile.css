@@ -92,3 +92,11 @@
 .product-detail {
   width: 100%;
 }
+
+.shopping-cart-container {
+  width: 100%;
+}
+
+.title-container {
+  display: none;
+}
