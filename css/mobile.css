@@ -30,3 +30,48 @@
   border-radius: 20px;
   object-fit: cover;
 }
+
+.mobile-menu {
+  padding: 0 24px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.mobile-menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.mobile-menu ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul li {
+  margin-bottom: 24px;
+}
+
+.mobile-menu .email-list {
+  margin-bottom: 5px;
+}
+
+.mobile-menu .email-link {
+  font-size: var(--sm);
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.mobile-menu .signout-list {
+  font-size: var(--sm);
+  font-weight: bold;
+  color: var(--hospital-green);
+}
